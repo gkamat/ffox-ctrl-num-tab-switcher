@@ -1,0 +1,55 @@
+{
+  "name": "Ctrl+Number keys to switch to unpinned tabs",
+  "description": "Keyboard shortcuts to switch to unpinned tabs with Ctrl+[1-9]",
+  "homepage_url": "https://github.com/gkamat/ffox-ctrl-num-unpinned",
+  "manifest_version": 2,
+  "version": "1.1",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "data_collection_permissions": {
+        "required": [ "none" ]
+      }
+    }
+  },
+  "commands": {
+    "1": {
+      "suggested_key": { "default": "Ctrl+1" },
+      "description": "Switch to the first tab"
+    },
+    "2": {
+      "suggested_key": { "default": "Ctrl+2" },
+      "description": "Switch to tab 2"
+    },
+    "3": {
+      "suggested_key": { "default": "Ctrl+3" },
+      "description": "Switch to tab 3"
+    },
+    "4": {
+      "suggested_key": { "default": "Ctrl+4" },
+      "description": "Switch to tab 4"
+    },
+    "5": {
+      "suggested_key": { "default": "Ctrl+5" },
+      "description": "Switch to tab 5"
+    },
+    "6": {
+      "suggested_key": { "default": "Ctrl+6" },
+      "description": "Switch to tab 6"
+    },
+    "7": {
+      "suggested_key": { "default": "Ctrl+7" },
+      "description": "Switch to tab 7"
+    },
+    "8": {
+      "suggested_key": { "default": "Ctrl+8" },
+      "description": "Switch to tab 8"
+    },
+    "9": {
+      "suggested_key": { "default": "Ctrl+9" },
+      "description": "Switch to the last tab"
+    }
+  }
+}
